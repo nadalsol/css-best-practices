@@ -1,4 +1,4 @@
-# Nesting Selectors Because You Can
+# Nesting selectors with no reason
 
 This is pretty common, specially when using CSS preprocessors like Sass or Less.
 

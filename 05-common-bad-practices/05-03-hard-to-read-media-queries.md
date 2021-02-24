@@ -1,4 +1,4 @@
-# Hard to Read Media Queries
+# Hard to read media queries
 
 1. The "hard to read" way (common but undesirable)
 2. The "keep in context" way (pretty useful)

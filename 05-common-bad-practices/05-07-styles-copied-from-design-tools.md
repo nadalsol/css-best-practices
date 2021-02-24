@@ -1,4 +1,4 @@
-# Styles Copied From Design Tools
+# Styles copied from design tools
 
 Some devs just copy & paste CSS styles from Zeplin, Figma, or any other design tools.
 

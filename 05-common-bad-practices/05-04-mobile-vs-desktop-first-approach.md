@@ -1,4 +1,4 @@
-# Mobile vs Desktop First Approach
+# Mobile vs desktop first approach
 
 1. The "mobile-first" approach
 2. The "desktop-first" approach
@@ -17,7 +17,7 @@ This approach uses `min-width` media queries.
 Here’s a quick example:
 
 ```scss
-// This applies from 0px to 600px
+// This applies from 0 to 599px
 body {
   background: red;
 }

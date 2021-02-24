@@ -1,4 +1,4 @@
-# Repeat Yourself
+# Repeating yourself
 
 This is another common mistake: writing HTML & CSS quickly, repeating a lot of code.
 

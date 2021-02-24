@@ -1,4 +1,4 @@
-# Long Files
+# Long files
 
 Long stylesheets are a pain in the ass: harder to mantain, harder to read, more error prone…
 
