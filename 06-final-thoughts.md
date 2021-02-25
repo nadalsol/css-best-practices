@@ -5,4 +5,4 @@
 3. Organise your projects with ITCSS.
 4. Think into components.
 5. Avoid bad practices.
-6. Be happy and love CSS :)
+6. Be happy and love CSS ❤️ 🎨

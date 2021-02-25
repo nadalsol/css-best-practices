@@ -41,6 +41,8 @@ Some tools to calculate specificity:
 - [Specificity Calculator](https://specificity.keegan.st/)
 - [Visual Studio Code](https://code.visualstudio.com/) comes with selector specificity hints (just over your CSS declarations)
 
+<img src="./img/vscode-selector-specificity-hint.png" alt="Selector specificity hint" />
+
 ## 4. The importance of understanding CSS specificity
 
 ### Example 1
