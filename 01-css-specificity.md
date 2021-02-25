@@ -18,24 +18,6 @@ According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Spe
 
 Let’s take this paragraph as an example:
 
-```html
-<p class="my-class" id="my-div"></p>
-```
-
-```scss
-#my-div {
-  color: red; // 1-0-0
-}
-
-.my-class {
-  color: blue; // 0-1-0
-}
-
-p {
-  color: yellow; // 0-0-1
-}
-```
-
 [View in CodePen](https://codepen.io/nadalsol/pen/VwmyPMQ)
 
 If cascade, or source order, were the only concern, the paragraph would be yellow. However, different selectors have different weights. An ID takes precendence over a class selector takes precendence over a type selector. **So, the paragraph would be red.**
@@ -104,9 +86,9 @@ It's important that we handle the hacks as safely and elegantly as possible.
 
 We could nest the class inside something else to bring its specificity up.
 
-<!--prettier-ignore-->
 ```css
-.header .site-nav {}
+.header .site-nav {
+}
 ```
 
 It introduces **location dependency**: these styles will only work when the `.site-nav` component is in the `.header` component.
@@ -115,9 +97,9 @@ It introduces **location dependency**: these styles will only work when the `.si
 
 We can chain that class with itself:
 
-<!--prettier-ignore-->
 ```css
-.site-nav.site-nav {}
+.site-nav.site-nav {
+}
 ```
 
 This chaining doubles the specificity of the selector, but does not introduce any dependency on location.
