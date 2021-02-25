@@ -1,4 +1,4 @@
-# Final Thoughts
+# Final thoughts
 
 1. Keep CSS specificity low.
 2. Use Sass + BEM wisely.

@@ -1,4 +1,4 @@
-# "Front of the front-end" best practices
+# CSS best practices
 
 ## Why this talk?
 
@@ -15,12 +15,12 @@ Besides, I noticed some interest from other developers, as they eventually had s
 
 I'll talk about why I'm coding HTML and CSS on a certain way (based on good practices I learned during some years). I'll cover topics like:
 
-1. [CSS Specificity](http://www.standardista.com/css3/css-specificity/)
-2. [BEM methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-3. [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss)
-4. Reusable HTML patterns
-5. Common Bad Practices (and how to address them)
-6. Final Thoughts
+1. [CSS specificity](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/01-css-specificity.md)
+2. [BEM methodology](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/02-bem-methodology.md)
+3. [ITCSS](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/03-itcss.md)
+4. [Reusable HTML patterns](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/04-reusable-html-patterns.md)
+5. [Common bad practices (and how to address them)](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/05-common-bad-practices.md)
+6. [Final thoughts](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/06-final-thoughts.md)
 7. Q&A
 
 Some of these are broad topics to cover, thus I'll try to teach you the essentials while illustrating them with real code examples.

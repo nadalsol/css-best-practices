@@ -1,4 +1,4 @@
-# CSS Specificity
+# CSS specificity
 
 1. What is CSS Specificity?
 2. Selector Specificity Weights
