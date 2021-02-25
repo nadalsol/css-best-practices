@@ -1,8 +1,8 @@
 # Hard to read media queries
 
-1. The "hard to read" way (common but undesirable)
-2. The "keep in context" way (pretty useful)
-3. Conclusions
+1. [The "hard to read" way (common but undesirable)](#1-the-hard-to-read-way-common-but-undesirable)
+2. [The "keep in context" way (pretty useful)](#2-the-keep-in-context-way-pretty-useful)
+3. [Conclusions](#3-conclusions)
 
 ---
 

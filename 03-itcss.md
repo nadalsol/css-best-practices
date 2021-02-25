@@ -1,10 +1,10 @@
 # ITCSS
 
-1. What is ITCSS?
-2. The CSS Problem
-3. Managing CSS Projects with ITCSS
-4. Recap
-5. Recommended reads
+1. [What is ITCSS?](#1-what-is-itcss)
+2. [The CSS Problem](#2-the-css-problem)
+3. [Managing CSS Projects with ITCSS](#3-managing-css-projects-with-itcss)
+4. [Recap](#4-recap)
+5. [Recommended reads](#5-recommended-reads)
 
 ---
 

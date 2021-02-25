@@ -1,9 +1,9 @@
 # BEM methodology
 
-1. What is BEM?
-2. Writting BEM with Sass
-3. Conclusions
-4. Recommended reads
+1. [What is BEM?](#1-what-is-bem)
+2. [Writting BEM with Sass](#2-writting-bem-with-sass)
+3. [Conclusions](#3-conclusions)
+4. [Recommended reads](#4-recommended-reads)
 
 ---
 
@@ -75,9 +75,11 @@ The CSS output will be the same as in the previous example, but keeping `.card__
 
 ## 3. Conclusions
 
-- BEM is a smart way of naming your CSS classes, to give them more transparency and meaning to other developers.
-- BEM makes code easier to maintain by teams, or even just by yourself a few months down the line.
-- BEM helps identifying different HTML patterns at a glance.
+BEM…
+
+- Is a smart way of naming your CSS classes, to give them more transparency and meaning to other developers.
+- Makes code easier to maintain by teams, or even just by yourself a few months down the line.
+- Helps identifying different HTML patterns at a glance.
 
 > BEM is a highly useful, powerful and simple naming convention to make your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit and a lot more strict.
 > – Harry Roberts

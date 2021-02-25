@@ -1,8 +1,8 @@
 # Reusable HTML patterns
 
-1. The problem: repetition
-2. The solution: thinking into patterns
-3. Conclusions
+1. [The problem: repetition](#1-the-problem-repetition)
+2. [The solution: thinking into patterns](#2-the-solution-thinking-into-patterns)
+3. [Conclusions](#3-conclusions)
 
 ---
 

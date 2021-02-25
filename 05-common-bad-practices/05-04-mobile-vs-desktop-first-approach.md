@@ -1,10 +1,10 @@
 # Mobile vs desktop first approach
 
-1. The "mobile-first" approach
-2. The "desktop-first" approach
-3. Why Code "mobile-first"?
-4. Conclusions
-5. Recommended reads
+1. [The "mobile-first" approach](#1-the-mobile-first-approach)
+2. [The "desktop-first" approach](#2-the-desktop-first-approach)
+3. [Why Code "mobile-first"?](#3-why-code-mobile-first)
+4. [Conclusions](#4-conclusions)
+5. [Recommended reads](#5-recommended-reads)
 
 ---
 

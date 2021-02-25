@@ -1,12 +1,12 @@
 # CSS specificity
 
-1. What is CSS Specificity?
-2. Selector Specificity Weights
-3. Calculating Specificity
-4. The importance of understanding CSS specificity
-5. Hacking Specificity
-6. Conclusions
-7. Recommended reads
+1. [What is CSS Specificity?](#1-what-is-css-specificity)
+2. [Selector Specificity Weights](#2-selector-specificity-weights)
+3. [Calculating Specificity](#3-calculating-specificity)
+4. [The importance of understanding CSS specificity](#4-the-importance-of-understanding-css-specificity)
+5. [Hacking Specificity](#5-hacking-specificity)
+6. [Conclusions](#6-conclusions)
+7. [Recommended reads](#7-recommended-reads)
 
 ---
 

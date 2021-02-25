@@ -1,8 +1,8 @@
 # Relying on tags rather than classes
 
-1. The tags approach
-2. The classes approach
-3. Conclusions
+1. [The tags approach](#1-the-tags-approach)
+2. [The classes approach](#2-the-classes-approach)
+3. [Conclusions](#3-conclusions)
 
 ---
 
