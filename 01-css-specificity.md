@@ -36,6 +36,8 @@ p {
 }
 ```
 
+[View in CodePen](https://codepen.io/nadalsol/pen/VwmyPMQ)
+
 If cascade, or source order, were the only concern, the paragraph would be yellow. However, different selectors have different weights. An ID takes precendence over a class selector takes precendence over a type selector. **So, the paragraph would be red.**
 
 ## 2. Selector Specificity Weights
@@ -63,51 +65,9 @@ Some tools to calculate specificity:
 
 In real world projects, is quite common to see ugly/over-specific selectors like these:
 
-```scss
-#create-moodboard {
-  ...
-  .project-create {
-    ...
-    .input-wrapper {
-      ...
-      .sectors-menu {
-        ...
-        .content-box {
-          ...
-          .sectors-bottom {
-            ...
-            span {
-              ...
-            }
-          }
-        }
-      }
-    }
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/MWbrJxj)
 
-CSS output:
-
-<!--prettier-ignore-->
-```css
-#create-moodboard .project-create .input-wrapper .sectors-menu .content-box .sectors-bottom span {
-  color: red;
-}
-```
-
-Selector Specificity: `(1, 5, 1)`
-
-Following this ugly example, if I need to add a new color declaration I have to be even more specific:
-
-<!--prettier-ignore-->
-```css
-#create-moodboard .project-create .input-wrapper .sectors-menu .content-box .sectors-bottom span.success {
-  color: green;
-}
-```
-
-Selector Specificity: `(1, 6, 1)`
+Following this ugly example, if I need to add a new color declaration I have to be even more specific, or even worse, using `!important`.
 
 > This causes CSS code to be hard to mantain, difficult to read and to debug, leading to errors and incosistencies. This is how the **specificity wars begins** and trust me, it never ends!
 > – Me
@@ -116,45 +76,7 @@ Selector Specificity: `(1, 6, 1)`
 
 #### Wrong
 
-<!--prettier-ignore-->
-```html
-<header>
-  <div class="card">
-    <div class="card__title">
-      <h2>Hello card!</h2>
-    </div>
-
-    <div class="card__content">
-      <img class="avatar" src="https://placekitten.com/200/200" alt="Kitten" />
-    </div>
-
-    <div class="card__actions">
-      <button class="btn">Submit<button>
-    </div>
-  </div>
-</main>
-```
-
-<!--prettier-ignore-->
-```scss
-.card {
-  padding: 2rem;
-  background-color: beige;
-
-  .avatar {
-    box-shadow: 0 4px 0 4px #000;
-  }
-}
-```
-
-What if I need a circle variation of the avatar?
-
-<!--prettier-ignore-->
-```scss
-.page-content .card .avatar {
-  border-radius: 50%;
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/WNodpzR)
 
 This solution:
 
@@ -164,40 +86,7 @@ This solution:
 
 #### Better
 
-<!--prettier-ignore-->
-```html
-<header>
-  <div class="card">
-    <div class="card__title">
-      <h2>Hello card!</h2>
-    </div>
-
-    <div class="card__content">
-      <img class="avatar avatar--circle" src="https://placekitten.com/200/200" alt="Kitten" />
-    </div>
-
-    <div class="card__actions">
-      <button class="btn">Submit<button>
-    </div>
-  </div>
-</>
-```
-
-<!--prettier-ignore-->
-```scss
-.card {
-  padding: 2rem;
-  background-color: beige;
-}
-
-.avatar {
-  box-shadow: 0 4px 0 4px #000;
-
-  &--circle {
-    border-radius: 50%;
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/XWNVMOP)
 
 This solution:
 

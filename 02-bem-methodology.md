@@ -19,31 +19,7 @@ BEM splits components’ classes into three groups:
 
 We can take back our previous card as an example:
 
-<!--prettier-ignore-->
-```html
-<div class="card">
-  <div class="card__title">
-    <h2>Hello card!</h2>
-  </div>
-
-  <div class="card__content">
-    <img class="avatar" src="https://placekitten.com/200/200" alt="Kitten" />
-  </div>
-
-  <div class="card__actions">
-    <button class="btn">Submit<button>
-  </div>
-</div>
-```
-
-<!--prettier-ignore-->
-```scss
-.card {} // block
-.card__title {} // element 1
-.card__content {} // element 2
-.card__actions {} // element 3...
-.card--prominent { background-color: pink; } // modifier
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/vYypRgp)
 
 It is important to know when BEM scope starts and stops. As a rule, **BEM applies to self-contained, discrete parts of the UI.**
 
@@ -52,22 +28,26 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
 <!--prettier-ignore-->
 ```scss
 .page {}
+  .page__header {}
   .page__content {}
-  .page__sub-content {}
   .page__footer {}
     .page__copyright {}
 ```
+
+[View in CodePen](https://codepen.io/nadalsol/pen/bGBavZX)
 
 ### Good notation
 
 <!--prettier-ignore-->
 ```scss
 .page {}
+.header {}
 .content {}
-.sub-content {}
 .footer {}
   .footer__copyright {}
 ```
+
+[View in CodePen](https://codepen.io/nadalsol/pen/XWNVqgV)
 
 ## 2. Writting BEM with Sass
 
@@ -75,113 +55,23 @@ Make use of Sass’ parent selector, to avoid writing our block over and over (w
 
 ### Not ideal
 
-<!--prettier-ignore-->
-```scss
-// block
-.card {
-  padding: 2rem;
-  background-color: beige;
-}
-
-// element/s
-.card__title {}
-.card__content {}
-.card__actions {}
-
-// modifier/s
-.card--prominent {
-  background-color: pink;
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/RwoxyLz)
 
 ### Much better
 
-<!--prettier-ignore-->
-```scss
-// block
-.card {
-  padding: 2rem;
-  background-color: beige;
-
-  // element/s
-  &__title {}
-  &__content {}
-  &__actions {}
-
-  // modifier/s
-  &--prominent {
-    background-color: pink;
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/zYopjVm)
 
 This is general good practice when dealing with nested code: keep all of your context (e.g. all `.card__title {}` code) encapsulated in one location:
 
 ### Not ideal
 
-<!--prettier-ignore-->
-```scss
-.card {
-  padding: 2rem;
-  background-color: beige;
-
-  &__title {
-    color: black;
-  }
-}
-
-.card--prominent {
-  background-color: pink;
-
-  &__title {
-    color: red;
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/yLVpEej)
 
 ### Much better
 
-```scss
-.card {
-  padding: 2rem;
-  background-color: beige;
-
-  &--prominent {
-    background-color: pink;
-  }
-
-  &__title {
-    color: black;
-
-    &--prominent & {
-      color: red;
-    }
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/XWNVYXy)
 
 The CSS output will be the same as in the previous example, but keeping `.card__title {}` context encapsulated in our Sass file.
-
-### CSS output
-
-```css
-.card {
-  padding: 2rem;
-  background-color: beige;
-}
-
-.card__title {
-  color: black;
-}
-
-.card--prominent {
-  background-color: pink;
-}
-
-.card--prominent .card__title {
-  color: red;
-}
-```
 
 ## 3. Conclusions
 
