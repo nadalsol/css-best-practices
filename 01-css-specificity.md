@@ -18,7 +18,7 @@ According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Spe
 
 Let’s take this paragraph as an example:
 
-[View in CodePen](https://codepen.io/nadalsol/pen/VwmyPMQ)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/VwmyPMQ)
 
 If cascade, or source order, were the only concern, the paragraph would be yellow. However, different selectors have different weights. An ID takes precendence over a class selector takes precendence over a type selector. **So, the paragraph would be red.**
 
@@ -47,7 +47,7 @@ Some tools to calculate specificity:
 
 In real world projects, is quite common to see ugly/over-specific selectors like these:
 
-[View in CodePen](https://codepen.io/nadalsol/pen/MWbrJxj)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/MWbrJxj)
 
 Following this ugly example, if I need to add a new color declaration I have to be even more specific, or even worse, using `!important`.
 
@@ -58,7 +58,7 @@ Following this ugly example, if I need to add a new color declaration I have to 
 
 #### Wrong
 
-[View in CodePen](https://codepen.io/nadalsol/pen/WNodpzR)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/WNodpzR)
 
 This solution:
 
@@ -68,7 +68,7 @@ This solution:
 
 #### Better
 
-[View in CodePen](https://codepen.io/nadalsol/pen/XWNVMOP)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/XWNVMOP)
 
 This solution:
 

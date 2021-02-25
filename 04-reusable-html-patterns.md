@@ -12,7 +12,7 @@ The bigger a code base is, the more likely is to contain patterns, repeated over
 
 Let's imagine an **image gallery** page –created with [Hugo](https://gohugo.io/templates/introduction/)– using responsive images:
 
-[View in CodePen](https://codepen.io/nadalsol/pen/YzpYRYe)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/YzpYRYe)
 
 ## 2. The solution: thinking into patterns
 
@@ -20,11 +20,11 @@ As you can see, every `<img srcset="..." src="..." alt="..." class="..." />` mig
 
 In "partials/retina-img@3x.html":
 
-[View in CodePen](https://codepen.io/nadalsol/pen/PobExQy)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/PobExQy)
 
 In "pages/image-gallery.html":
 
-[View in CodePen](https://codepen.io/nadalsol/pen/dyOJQeJ)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/dyOJQeJ)
 
 ## 3. Conclusions
 

@@ -12,11 +12,11 @@ According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Med
 
 ## 1. The "hard to read" way (common but undesirable)
 
-[View in CodePen](https://codepen.io/nadalsol/pen/NWbXeKW)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/NWbXeKW)
 
 ## 2. The "keep in context" way (pretty useful)
 
-[View in CodePen](https://codepen.io/nadalsol/pen/wvopRMw)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/wvopRMw)
 
 ## 3. Conclusions
 

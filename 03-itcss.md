@@ -33,7 +33,7 @@ In short: **Write CSS in Specificity Order**.
 
 A real world example: **Hack&Craft 3.0 website**
 
-[View in CodePen](https://codepen.io/nadalsol/pen/QWGaJdo)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/QWGaJdo)
 
 ### ITCSS…
 

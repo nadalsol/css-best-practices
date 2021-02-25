@@ -19,7 +19,7 @@ BEM splits components’ classes into three groups:
 
 We can take back our previous card as an example:
 
-[View in CodePen](https://codepen.io/nadalsol/pen/vYypRgp)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/vYypRgp)
 
 It is important to know when BEM scope starts and stops. As a rule, **BEM applies to self-contained, discrete parts of the UI.**
 
@@ -34,7 +34,7 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
     .page__copyright {}
 ```
 
-[View in CodePen](https://codepen.io/nadalsol/pen/bGBavZX)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/bGBavZX)
 
 ### Good notation
 
@@ -47,7 +47,7 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
   .footer__copyright {}
 ```
 
-[View in CodePen](https://codepen.io/nadalsol/pen/XWNVqgV)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/XWNVqgV)
 
 ## 2. Writting BEM with Sass
 
@@ -55,21 +55,21 @@ Make use of Sass’ parent selector, to avoid writing our block over and over (w
 
 ### Not ideal
 
-[View in CodePen](https://codepen.io/nadalsol/pen/RwoxyLz)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/RwoxyLz)
 
 ### Much better
 
-[View in CodePen](https://codepen.io/nadalsol/pen/zYopjVm)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/zYopjVm)
 
 This is general good practice when dealing with nested code: keep all of your context (e.g. all `.card__title {}` code) encapsulated in one location:
 
 ### Not ideal
 
-[View in CodePen](https://codepen.io/nadalsol/pen/yLVpEej)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/yLVpEej)
 
 ### Much better
 
-[View in CodePen](https://codepen.io/nadalsol/pen/XWNVYXy)
+👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/XWNVYXy)
 
 The CSS output will be the same as in the previous example, but keeping `.card__title {}` context encapsulated in our Sass file.
 
