@@ -4,13 +4,9 @@ Long stylesheets are a pain in the ass: harder to mantain, harder to read, more 
 
 To prevent this problem, avoid writing your styles in an endless/single CSS file.
 
-## Wrong
+MISSING IMG (long CSS file)
 
-???
-
-## Better
-
-???
+MISSING IMG (Sass partial)
 
 ## What to do?
 

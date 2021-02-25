@@ -16,40 +16,17 @@ This approach uses `min-width` media queries.
 
 Here’s a quick example:
 
-```scss
-// This applies from 0 to 599px
-body {
-  background: red;
-}
-
-// This applies from 600px onwards
-@media (min-width: 600px) {
-  body {
-    background: green;
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/WNodLvv)
 
 ## 2. The "desktop-first" approach
 
-On the flipside, a "desktop-first" approach to styling means that styles are applied first to desktop devices. Advanced styles and overrides for smaller screens are then added into the stylesheet via media queries.
+On the flipside, a "desktop-first" approach means that styles are applied first to desktop devices. Advanced styles and overrides for smaller screens are then added into the stylesheet via media queries.
 
 This approach uses `max-width` media queries.
 
 Here’s a quick example:
 
-```scss
-body {
-  background: green;
-}
-
-// This applies from 0px to 600px
-@media (max-width: 600px) {
-  body {
-    background: red;
-  }
-}
-```
+[View in CodePen](https://codepen.io/nadalsol/pen/rNWpoWz)
 
 ## 3. Why Code "mobile-first"?
 
@@ -60,7 +37,7 @@ If we go with the desktop-first approach instead, we will have to restore the de
 ## 4. Conclusions
 
 - Follow the "mobile-first" approach, using `min-width` media queries, for more performant and scalable stylesheets.
-- A lot of developers still use the `max-width` ("desktop-first") approach in to 2021. Please, don't do that!
+- A lot of developers still use the `max-width` ("desktop-first") approach in 2021. Please, don't do that!
 
 ## 5. Recommended reads
 

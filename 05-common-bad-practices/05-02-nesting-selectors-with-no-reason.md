@@ -2,7 +2,7 @@
 
 This is pretty common, specially when using CSS preprocessors like Sass or Less.
 
-As we mentioned in the CSS Specificity section, this is bad practise because:
+As we mentioned in the **CSS Specificity** section, this is bad practise because:
 
 - Increments our selectors specificity, with no reason.
 - Makes CSS harder to mantain, difficult to read and to debug, leading to errors and incosistencies.

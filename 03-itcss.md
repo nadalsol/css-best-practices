@@ -31,7 +31,9 @@ In short: **Write CSS in Specificity Order**.
 6. **Components:** Designed components, chunks of UI.
 7. **Trumps:** Helpers and overrides.
 
-A real world example: [Hack&Craft 3.0 website](https://github.com/HackandCraft/hnc3.0/blob/development/assets/css/main.scss)
+A real world example: **Hack&Craft 3.0 website**
+
+[View in CodePen](https://codepen.io/nadalsol/pen/QWGaJdo)
 
 ### ITCSS…
 
