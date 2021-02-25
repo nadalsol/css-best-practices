@@ -88,6 +88,7 @@ We could nest the class inside something else to bring its specificity up.
 
 ```css
 .header .site-nav {
+  /* some code… */
 }
 ```
 
@@ -99,6 +100,7 @@ We can chain that class with itself:
 
 ```css
 .site-nav.site-nav {
+  /* some code… */
 }
 ```
 
