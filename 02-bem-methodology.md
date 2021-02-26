@@ -9,6 +9,8 @@
 
 ## 1. What is BEM?
 
+<img src="./img/bem.png" alt="BEM" />
+
 **BEM**, stands for **Block, Element, Modifier**.
 
 For larger, more interrelated pieces of UI that require a number of classes, BEM-like naming convention is helpful, sppliting components’ classes into three groups:

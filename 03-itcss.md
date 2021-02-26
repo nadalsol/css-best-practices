@@ -10,6 +10,8 @@
 
 ## 1. What is ITCSS?
 
+<img src="./img/itcss-cover.png" alt="ITCSS" />
+
 **ITCSS** is a simple effective **methodology** to help **manage, maintain, and scale CSS projects** of all sizes. ITCSS stands for **Inverted Triangle** architecture for **CSS**.
 
 ## 2. The CSS problem
@@ -20,7 +22,11 @@
 
 ## 3. Managing CSS projects with ITCSS
 
+<img src="./img/itcss-01.png" alt="Specificity order" />
+
 In short: **write CSS in specificity order**.
+
+<img src="./img/itcss-02.png" alt="Default layers" />
 
 ### Default layers
 

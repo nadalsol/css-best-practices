@@ -12,6 +12,8 @@
 
 ## 1. What is CSS specificity?
 
+<img src="./img/css-specifishity.png" alt="CSS specifishity" />
+
 According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity):
 
 > Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations.
@@ -31,8 +33,6 @@ If cascade, or source order, were the only concern, the paragraph would be yello
 5. type
 
 ## 3. Calculating specificity
-
-<img src="./img/css-specifishity.png" alt="CSS specifishity" />
 
 [Visual Studio Code](https://code.visualstudio.com/) comes with selector specificity hints (just over your CSS declarations).
 
