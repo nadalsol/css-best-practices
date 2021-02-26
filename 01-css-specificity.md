@@ -12,7 +12,7 @@
 
 ## 1. What is CSS specificity?
 
-<img src="./img/css-specifishity.png" alt="CSS specifishity" />
+<img src="./img/css-specificity-cover.png" alt="CSS specificity cover" />
 
 According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity):
 
@@ -33,6 +33,8 @@ If cascade, or source order, were the only concern, the paragraph would be yello
 5. type
 
 ## 3. Calculating specificity
+
+<img src="./img/css-specifishity.png" alt="CSS specifishity" />
 
 [Visual Studio Code](https://code.visualstudio.com/) comes with selector specificity hints (just over your CSS declarations).
 
