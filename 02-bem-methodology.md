@@ -53,14 +53,14 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
 
 ### Example 03
 
-Make use of Sass’ parent selector, to avoid writing our block over and over (which is error prone):
+Make use of **Sass’ parent selector**, to avoid writing our block over and over (which is error prone):
 
 - not ideal: 👨🏻‍💻 [Example 03a (CodePen)](https://codepen.io/nadalsol/pen/RwoxyLz)
 - much better: 👨🏻‍💻 [Example 03b (CodePen)](https://codepen.io/nadalsol/pen/zYopjVm)
 
 ### Example 04
 
-This is general good practice when dealing with nested code: keep all of your context (e.g. all `.card__title {}` code) encapsulated in one location:
+This is general good practice when dealing with nested code: **keep all of your context encapsulated in one location**:
 
 - not ideal: 👨🏻‍💻 [Example 04a (CodePen)](https://codepen.io/nadalsol/pen/yLVpEej)
 - much better: 👨🏻‍💻 [Example 04b (CodePen)](https://codepen.io/nadalsol/pen/XWNVYXy)
