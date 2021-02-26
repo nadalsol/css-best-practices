@@ -1,13 +1,20 @@
 # BEM methodology
 
-1. [What is BEM?](#1-what-is-bem)
-2. [Writting BEM with Sass](#2-writting-bem-with-sass)
-3. [Conclusions](#3-conclusions)
-4. [Recommended reads](#4-recommended-reads)
+1. [CSS global scope](#1-css-global-scope)
+2. [BEM to the rescue](#2-bem-to-the-rescue)
+3. [Writting BEM with Sass](#3-writting-bem-with-sass)
+4. [Conclusions](#4-conclusions)
+5. [Recommended reads](#5-recommended-reads)
 
 ---
 
-## 1. What is BEM?
+## 1. CSS global scope
+
+> The global nature of CSS is perhaps the most-pointed-at anti-feature of CSS. Some people really don’t like it. We all know it’s very easy to write a single CSS rule that has implications all over a site, breaking things you really didn’t want to break.
+>
+> – Chris Coyier
+
+## 2. BEM to the rescue
 
 <img src="./img/bem.png" alt="BEM" />
 
@@ -62,7 +69,7 @@ We can take back our previous card as an example:
 >
 > – Harry Roberts
 
-## 2. Writting BEM with Sass
+## 3. Writting BEM with Sass
 
 ### Example 03
 
@@ -80,7 +87,7 @@ This is general good practice when dealing with nested code: **keep all of your 
 
 The CSS output will be the same in both cases, but keeping `.card__title {}` context encapsulated in our Sass file is better!
 
-## 3. Conclusions
+## 4. Conclusions
 
 > BEM is a highly useful, powerful and simple naming convention to make your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit and a lot more strict.
 >
@@ -92,8 +99,9 @@ BEM is also…
 - Makes code easier to maintain by teams, or even just by yourself a few months down the line.
 - Helps identifying different HTML patterns at a glance.
 
-## 4. Recommended reads
+## 5. Recommended reads
 
+- [Regarding CSS’s Global Scope](https://css-tricks.com/regarding-css-global-scope/)
 - [Get BEM > Naming](http://getbem.com/naming/)
 - [MindBEMding – getting your head ’round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 - [cssguidelin.es > BEM-like Naming](https://cssguidelin.es/#bem-like-naming)

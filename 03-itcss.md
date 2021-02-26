@@ -1,7 +1,7 @@
 # ITCSS
 
 1. [What is ITCSS?](#1-what-is-itcss)
-2. [The CSS problem](#2-the-css-problem)
+2. [The specificity problem](#2-the-css-problem)
 3. [Managing CSS projects with ITCSS](#3-managing-css-projects-with-itcss)
 4. [Recap](#4-recap)
 5. [Recommended reads](#5-recommended-reads)
@@ -12,9 +12,9 @@
 
 <img src="./img/itcss-cover.png" alt="ITCSS" />
 
-**ITCSS** is a simple effective **methodology** to help **manage, maintain, and scale CSS projects** of all sizes. ITCSS stands for **Inverted Triangle** architecture for **CSS**.
+**ITCSS** is a simple effective **methodology** created by Harry Roberts ([@csswizardry](https://twitter.com/csswizardry)), to help **manage, maintain, and scale CSS projects** of all sizes. ITCSS stands for **Inverted Triangle** architecture for **CSS**.
 
-## 2. The CSS problem
+## 2. The specificity problem
 
 > It doesn't matter how well-considered your **source order** is; how well you're **utilising the cascade**; what **naming conventions** you use; **specificity can undo everything**.
 >
@@ -24,7 +24,7 @@
 
 <img src="./img/itcss-01.png" alt="Specificity order" />
 
-In short: **write CSS in specificity order**.
+In short, ITCSS helps **writing CSS in specificity order**.
 
 <img src="./img/itcss-02.png" alt="Default layers" />
 
@@ -54,7 +54,7 @@ In short: **write CSS in specificity order**.
 - A **sane** source order.
 - **Reduced waste**/redundancy.
 - Increased **scalability**.
-- The **Specificity Wars are over**!
+- The **Specificity Wars are over**! 🎉
 
 ## 4. Recap
 
@@ -66,5 +66,5 @@ In short: **write CSS in specificity order**.
 
 ## 5. Recommended reads
 
-- [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss)
+- [Managing CSS Projects with ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss)
 - [BEMIT: Taking the BEM Naming Convention a Step Further](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
