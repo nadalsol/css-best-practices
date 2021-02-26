@@ -16,6 +16,8 @@ According to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Spe
 
 > Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations.
 
+### Example 01
+
 👨🏻‍💻 [Example 01 (CodePen)](https://codepen.io/nadalsol/pen/VwmyPMQ)
 
 If cascade, or source order, were the only concern, the paragraph would be yellow. However, **different selectors have different weights**. An ID takes precendence over a class selector takes precendence over a type selector. **So, the paragraph would be red.**
@@ -38,7 +40,7 @@ If cascade, or source order, were the only concern, the paragraph would be yello
 
 ## 4. The importance of understanding CSS specificity
 
-### Example 2
+### Example 02
 
 In real world projects, is quite common to see ugly/over-specific selectors like these:
 
@@ -50,7 +52,7 @@ Following this example, if I need to add a new color declaration I have to be ev
 >
 > – Me
 
-### Example 3a (wrong)
+### Example 03a (wrong)
 
 - Increases specificity
 - Introduces **location dependency** (these styles will only work when the `.avatar` component is in the `.header` component)
@@ -58,7 +60,7 @@ Following this example, if I need to add a new color declaration I have to be ev
 
 👨🏻‍💻 [Example 03a (CodePen)](https://codepen.io/nadalsol/pen/WNodpzR)
 
-### Example 3b (better)
+### Example 03b (better)
 
 - Keeps specificity low
 - No **location dependency** (`.avatar` will look as expected everywhere)
@@ -89,8 +91,7 @@ We can chain that class with itself:
 
 <!-- prettier-ignore -->
 ```scss
-.site-nav.site-nav {
-}
+.site-nav.site-nav {}
 ```
 
 This chaining doubles the specificity of the selector, but does not introduce any dependency on location.

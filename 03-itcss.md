@@ -1,8 +1,8 @@
 # ITCSS
 
 1. [What is ITCSS?](#1-what-is-itcss)
-2. [The CSS Problem](#2-the-css-problem)
-3. [Managing CSS Projects with ITCSS](#3-managing-css-projects-with-itcss)
+2. [The CSS problem](#2-the-css-problem)
+3. [Managing CSS projects with ITCSS](#3-managing-css-projects-with-itcss)
 4. [Recap](#4-recap)
 5. [Recommended reads](#5-recommended-reads)
 
@@ -10,16 +10,17 @@
 
 ## 1. What is ITCSS?
 
-ITCSS is a simple effective methodology to help manage, maintain, and scale CSS projects of all sizes. ITCSS stands for _Inverted Triangle_ architecture for _CSS_.
+**ITCSS** is a simple effective **methodology** to help **manage, maintain, and scale CSS projects** of all sizes. ITCSS stands for **Inverted Triangle** architecture for **CSS**.
 
-## 2. The CSS Problem
+## 2. The CSS problem
 
 > It doesn't matter how well-considered your **source order** is; how well you're **utilising the cascade**; what **naming conventions** you use; **specificity can undo everything**.
+>
 > – Harry Roberts
 
-## 3. Managing CSS Projects with ITCSS
+## 3. Managing CSS projects with ITCSS
 
-In short: **Write CSS in Specificity Order**.
+In short: **write CSS in specificity order**.
 
 ### Default layers
 
@@ -31,9 +32,7 @@ In short: **Write CSS in Specificity Order**.
 6. **Components:** Designed components, chunks of UI.
 7. **Trumps:** Helpers and overrides.
 
-A real world example: **Hack&Craft 3.0 website**
-
-👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/QWGaJdo)
+👨🏻‍💻 [ITCSS in action: Hack&Craft 3.0 website (CodePen)](https://codepen.io/nadalsol/pen/QWGaJdo)
 
 ### ITCSS…
 
