@@ -16,8 +16,7 @@ Based on **good practices I learned** during some years:
 
 One more thing…
 
-7. [Final thoughts](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/06-final-thoughts.md)
-8. Q&A
+6. [Final thoughts](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/06-final-thoughts.md) + Q&A
 
 ### Considerations
 
