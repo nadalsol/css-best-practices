@@ -8,15 +8,15 @@ There are multiple reasons for that: _reusability, performance, accessibility, m
 
 Based on **good practices I learned** during some years:
 
-1. [CSS specificity](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/01-css-specificity.md)
-2. [BEM methodology](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/02-bem-methodology.md)
-3. [ITCSS](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/03-itcss.md)
-4. [Reusable HTML patterns](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/04-reusable-html-patterns.md)
-5. [Common bad practices (and how to address them)](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/05-common-bad-practices.md)
+1. [CSS specificity](https://github.com/nadalsol/css-best-practices/blob/main/01-css-specificity.md)
+2. [BEM methodology](https://github.com/nadalsol/css-best-practices/blob/main/02-bem-methodology.md)
+3. [ITCSS](https://github.com/nadalsol/css-best-practices/blob/main/03-itcss.md)
+4. [Reusable HTML patterns](https://github.com/nadalsol/css-best-practices/blob/main/04-reusable-html-patterns.md)
+5. [Common bad practices (and how to address them)](https://github.com/nadalsol/css-best-practices/blob/main/05-common-bad-practices/README.md)
 
 One more thing…
 
-6. [Final thoughts](https://github.com/nadalsol/css-best-practices-at-hnc/blob/main/06-final-thoughts.md) + Q&A
+6. [Final thoughts](https://github.com/nadalsol/css-best-practices/blob/main/06-final-thoughts.md) + Q&A
 
 ### Considerations
 
