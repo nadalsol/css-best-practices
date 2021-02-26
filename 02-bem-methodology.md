@@ -24,13 +24,13 @@ For larger, more interrelated pieces of UI that require a number of classes, BEM
 .block--modifier {}
 ```
 
+### Example 01
+
 We can take back our previous card as an example:
 
 👨🏻‍💻 [Example 01 (CodePen)](https://codepen.io/nadalsol/pen/vYypRgp)
 
-It is important to know when BEM scope starts and stops. As a rule, **BEM applies to self-contained, discrete parts of the UI.**
-
-### Incorrect notation
+### Example 02a (incorrect notation)
 
 <!--prettier-ignore-->
 ```scss
@@ -43,7 +43,7 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
 
 👨🏻‍💻 [Example 02a (CodePen)](https://codepen.io/nadalsol/pen/bGBavZX)
 
-### Good notation
+### Example 02b (good notation)
 
 <!--prettier-ignore-->
 ```scss
@@ -55,6 +55,10 @@ It is important to know when BEM scope starts and stops. As a rule, **BEM applie
 ```
 
 👨🏻‍💻 [Example 02b (CodePen)](https://codepen.io/nadalsol/pen/XWNVqgV)
+
+> It is important to know when BEM scope starts and stops. As a rule, **BEM applies to self-contained, discrete parts of the UI.**
+>
+> – Harry Roberts
 
 ## 2. Writting BEM with Sass
 
