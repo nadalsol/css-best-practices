@@ -9,13 +9,20 @@
 
 ## 1. What is BEM?
 
-For larger, more interrelated pieces of UI that require a number of classes, BEM-like naming convention is helpful. **BEM**, stands for **Block, Element, Modifier**.
+**BEM**, stands for **Block, Element, Modifier**.
 
-BEM splits components’ classes into three groups:
+For larger, more interrelated pieces of UI that require a number of classes, BEM-like naming convention is helpful, sppliting components’ classes into three groups:
 
 - **Block:** The sole root of the component.
 - **Element:** A component part of the Block.
 - **Modifier:** A variant or extension of the Block.
+
+<!--prettier-ignore-->
+```scss
+.block {}
+.block__element {}
+.block--modifier {}
+```
 
 We can take back our previous card as an example:
 
@@ -81,5 +88,6 @@ BEM is also…
 
 ## 4. Recommended reads
 
+- [Get BEM > Naming](http://getbem.com/naming/)
 - [MindBEMding – getting your head ’round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 - [cssguidelin.es > BEM-like Naming](https://cssguidelin.es/#bem-like-naming)
