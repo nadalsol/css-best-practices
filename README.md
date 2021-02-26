@@ -20,4 +20,4 @@ One more thing…
 
 ### Considerations
 
-- Most examples written in Sass (`*.scss` syntax).
+Most examples written in Sass (`*.scss` syntax).
