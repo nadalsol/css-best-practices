@@ -108,8 +108,7 @@ The key here isn’t so much eliminating specificity completely, but **managing 
 - Use **class** selectors for UI elements, in conjunction with a namespacing methodology like [BEM](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
 - Don't use **qualifying classes** (like `ul.nav {}`).
 - Flatten your CSS as much as possible (the less use of the cascade, the less specificity conflicts and less work for the browser).
-- Write your CSS in specificity order (getting progressively more specific).
-- A scalable and maintainable CSS architecture, like [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), can be very handy!
+- Write your CSS in specificity order, getting progressively more specific (a scalable CSS architecture, like [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), can be very handy).
 
 > Specificity can be wrangled and understood, but it is safer just to avoid it entirely.
 >
