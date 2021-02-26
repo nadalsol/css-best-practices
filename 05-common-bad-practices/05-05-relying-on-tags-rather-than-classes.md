@@ -10,7 +10,7 @@
 
 Taking this component as an example, replace `button` for `a` and see what happens…
 
-👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/jOVYXqq)
+👨🏻‍💻 [Example 01a (CodePen)](https://codepen.io/nadalsol/pen/jOVYXqq)
 
 ### Result
 
@@ -20,7 +20,7 @@ Button styles would be broken :(
 
 Let's imagine we had used classes rather than tags, to edit the same component…
 
-👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/PobEVpW)
+👨🏻‍💻 [Example 01b (CodePen)](https://codepen.io/nadalsol/pen/PobEVpW)
 
 ### Result
 

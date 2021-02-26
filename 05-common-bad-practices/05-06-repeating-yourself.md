@@ -1,6 +1,6 @@
 # Repeating yourself
 
-This is another common mistake: writing HTML & CSS quickly, repeating a lot of code.
+This is another common mistake: **writing HTML & CSS quickly, repeating a lot of code**.
 
 This is bad practise because:
 

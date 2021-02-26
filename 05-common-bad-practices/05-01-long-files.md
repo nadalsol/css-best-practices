@@ -1,12 +1,12 @@
 # Long files
 
-Long stylesheets are a pain in the ass: harder to mantain, harder to read, more error prone…
+Long stylesheets are a pain in the ass: harder to mantain, harder to read, more error prone… To prevent this problem, **avoid writing your styles in an endless/single Sass/Less/whatever file**.
 
-To prevent this problem, avoid writing your styles in an endless/single CSS file.
+<img src="../img/long-file.png" alt="Long file" />
 
-MISSING IMG (long CSS file)
+Use Sass partials instead!
 
-MISSING IMG (Sass partial)
+<img src="../img/sass-partials.png" alt="Sass partials" />
 
 ## What to do?
 

@@ -16,7 +16,7 @@ This approach uses `min-width` media queries.
 
 Here’s a quick example:
 
-👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/WNodLvv)
+👨🏻‍💻 [Example 01a (CodePen)](https://codepen.io/nadalsol/pen/WNodLvv)
 
 ## 2. The "desktop-first" approach
 
@@ -26,7 +26,7 @@ This approach uses `max-width` media queries.
 
 Here’s a quick example:
 
-👨🏻‍💻 [View on CodePen](https://codepen.io/nadalsol/pen/rNWpoWz)
+👨🏻‍💻 [Example 01b (CodePen)](https://codepen.io/nadalsol/pen/rNWpoWz)
 
 ## 3. Why Code "mobile-first"?
 
