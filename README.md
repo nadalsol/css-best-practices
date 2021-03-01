@@ -1,5 +1,7 @@
 # CSS Best Practices
 
+<img src="./img/css-best-practices.jpg" alt="CSS Best Practices" />
+
 Writing good [front of the front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) code is key for any front-end project ✨ 🎨 📐
 
 There are multiple reasons for that: _reusability, performance, accessibility, maintainability, semantics, consistency, better developer experience…_
